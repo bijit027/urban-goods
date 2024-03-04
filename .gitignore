@@ -1,0 +1,30 @@
+# Ignore the vendor directory in the Laravel backend
+/backend/vendor/
+/backend/node_modules/
+
+# Ignore the node_modules directory in the Vue.js frontend
+/frontend/node_modules/
+
+# Ignore any local environment files
+.env
+
+# Ignore any build artifacts or compiled files
+*.log
+*.zip
+*.sql
+*.sqlite
+*.sqlite3
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore any compiled JavaScript or CSS files in the Vue.js frontend
+/frontend/dist/
+
+# Ignore any temporary or cache files
+storage/*.key
+/storage/*.key
+/storage/*.log
+bootstrap/cache/
+
