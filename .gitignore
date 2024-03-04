@@ -6,7 +6,6 @@
 /frontend/node_modules/
 
 # Ignore any local environment files
-.env
 
 # Ignore any build artifacts or compiled files
 *.log
